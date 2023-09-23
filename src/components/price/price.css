@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300;400;500;600&display=swap');
+#prices
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}.prices_container{
+    margin: 80px;;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    align-items: center;
+   
+}
+
+
+.price{
+    background: var(--color-bg);
+    color:var(--color-black);
+    height: fit-content;
+    transition: var(--transition);
+    padding: 5px;
+    margin: 5px;
+}
+.price:hover{
+    background: var(--color-transition);
+    cursor: pointer;
+}
+
+.price_list li{
+    margin-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+.price_list-icons{
+   background: lightgray;
+   border-radius: 50%;
+   }
+   .price_list-icons:hover{
+    background: grey;
+   }
+.plan{
+    width: 100%;
+    background:goldenrod;
+    text-align: center;
+    box-shadow: 4px 4px lightgray;
+   
+}
+.btn{
+    background:goldenrod;
+    color: var(--color-black);
+    padding: 15px ;
+    font-size: medium;
+    font-weight: bold;
+   
+    }
+
+.service_head h1{
+    text-align: left;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif ;
+    font-weight: 200;
+}
+.service_head p{
+   margin: 2rem 0 2.6rem;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+}
+.title{
+    
+    background:goldenrod;
+    
+    border: none;
+    color: var(--color-black);
+    padding: 5px 10px;
+    margin: 10px;
+     border-radius: 25px;
+   text-align: left;
+   text-decoration: none;
+    font-weight: bold;
+}
